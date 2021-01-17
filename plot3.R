@@ -6,7 +6,7 @@ with(data_3, plot(datetime, Sub_metering_1, type = "l",
 with(data_3, lines(datetime, Sub_metering_2, col= "red"))
 with(data_3, lines(datetime, Sub_metering_3, col= "blue"))
 legend("topright", col = c("black", "red", "blue"), 
-       lty =1, lwd = 2, y.intersp = 0.5, cex = 0.8,
+       lty =1, lwd = 2, y.intersp = 0.5, cex = 0.7,
        text.width = strwidth("10000"), xjust = 1,
        legend = c("Sub_metering_1","Sub_metering_2", 
                   "Sub_metering_3"))
